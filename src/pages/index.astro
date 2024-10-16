@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import { fade, slide } from 'astro:transitions';
 ---
 
 <!doctype html>
@@ -13,19 +14,19 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
   <body>
     <Header />
     <div class="grid grid-flow-col grid-rows-2 translate-y-10">
-      <div class="transform scale-110 -rotate-6">
+      <div transition:animate={slide({duration: "1s"})} class="transform scale-110 -rotate-6">
         <img src="/Departamento.jpg" alt="" loading="lazy" />
       </div>
-      <div class="col-start-2 transform rotate-6 translate-y-24">
+      <div transition:animate={slide({duration: "1s"})} class="col-start-2 transform rotate-6 translate-y-24">
         <img src="/header.jpg" alt="" loading="lazy" />
       </div>
-      <div class="transform translate-x-20 scale-110">
+      <div transition:animate={slide({duration: "1s"})} class="transform translate-x-20 scale-110">
         <img src="/header1.jpg" alt="" loading="lazy" />
       </div>
-      <div class="transform translate-y-24 scale-90 -rotate-6">
+      <div transition:animate={slide({duration: "1s"})} class="transform translate-y-24 scale-90 -rotate-6">
         <img src="/header2.jpg" alt="" loading="lazy" />
       </div>
-      <div
+      <div transition:animate={slide({duration: "1s"})}
         class="row-start-1 col-start-2 scale-90 col-span-2 rotate-6 translate-y-10">
         <img src="/header3.jpg" alt="" loading="lazy" />
       </div>
