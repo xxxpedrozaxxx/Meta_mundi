@@ -2,48 +2,141 @@
 title: 'Parque Nacional Natural Sierra de La Macarena'
 description: 'Uno de los destinos más emblemáticos del Meta, donde se encuentra Caño Cristales, también llamado el "río de los cinco colores". Es famoso por sus aguas cristalinas que adquieren tonos de amarillo, verde, azul, negro y rojo gracias a una planta acuática.'
 pubDate: '10/02/2024'
-heroImage: '/parque-nacional.jpg'
+heroImage: '/img/parque-nacional.jpg'
 ---
 
-# Parque Nacional Natural Sierra de La Macarena: Un Paraíso Natural en el Corazón del Meta
+<!-- Sección Principal con Parallax -->
+<section class="relative bg-cover bg-center h-screen overflow-hidden" style="background-image: url('https://ejemplo.com/sierra-macarena.jpg');">
+  <!-- Fondo con transparencia -->
+  <div class="absolute inset-0 bg-green-600 bg-opacity-50 flex items-center justify-center animate-fade-in">
+    <!-- Contenedor de texto más amplio y estético -->
+    <div class="text-center text-white p-12 max-w-2xl bg-opacity-90 bg-green-900 rounded-xl shadow-2xl transform hover:scale-105 transition duration-500">
+      <h1 class="text-5xl font-bold animate-pulse text-shadow-md">
+        🏞 Parque Nacional Natural Sierra de La Macarena
+      </h1>
+      <p class="mt-8 text-2xl leading-relaxed">
+        Un refugio natural que alberga una biodiversidad extraordinaria. La Sierra de La Macarena es hogar de maravillas naturales como Caño Cristales y una rica variedad de flora y fauna.
+      </p>
+    </div>
+  </div>
+</section>
 
-Ubicado en el departamento del Meta, Colombia, el **Parque Nacional Natural Sierra de La Macarena** es una joya natural que combina biodiversidad, paisajes únicos y una conexión especial con la cultura local. Este parque es el hogar de una de las maravillas naturales más impresionantes del mundo: **Caño Cristales**, conocido como el "río de los cinco colores". Sin embargo, más allá de este famoso río, la Sierra de La Macarena ofrece una experiencia diversa y rica para los amantes de la naturaleza, la aventura y la tranquilidad.
+<!-- Título centrado de "¿Por qué visitar la Sierra de La Macarena?" -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🌟 ¿Por qué visitar el Parque Nacional Natural Sierra de La Macarena?
+  </h2>
+</div>
 
-## ¿Por qué visitar el Parque Nacional Natural Sierra de La Macarena?
+<div class="p-8 bg-white shadow-lg rounded-lg mt-16 mb-16 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+  <p class="text-gray-700 text-xl leading-relaxed">
+    La Sierra de La Macarena es uno de los ecosistemas más importantes de Colombia. Con paisajes que incluyen selvas, sabanas, y ríos multicolores como Caño Cristales, este parque ofrece a los visitantes la oportunidad de explorar la increíble biodiversidad del Amazonas, los Andes y los Llanos.
+  </p>
+</div>
 
-La Sierra de La Macarena es un lugar donde convergen tres grandes ecosistemas: la Amazonía, los Andes y los Llanos Orientales. Esta diversidad geográfica ha dado lugar a una vasta biodiversidad, con más de **1,200 especies de plantas**, **100 especies de mamíferos** y alrededor de **500 especies de aves**. La riqueza ecológica convierte a este parque en un destino perfecto para los amantes de la observación de fauna y flora.
+---
 
-## Principales atractivos del Parque
+<!-- Actividades para disfrutar en la Sierra de La Macarena -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🌿 Actividades para disfrutar en el Parque Sierra de La Macarena
+  </h2>
+</div>
 
-- **Caño Cristales**: El principal atractivo del parque es, sin duda, **Caño Cristales**, el río que brilla en múltiples colores gracias a la planta acuática *Macarenia clavigera*. Este fenómeno, visible entre los meses de junio y noviembre, ofrece una experiencia visual única en el mundo.
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 mb-16 text-center">
+  
+  <!-- Tarjeta 1: Exploración de Caño Cristales -->
+  <div class="bg-white shadow-xl rounded-lg p-6 transition-transform transform hover:scale-110 duration-500 hover:shadow-2xl hover:bg-green-100">
+    <h3 class="text-2xl font-bold text-green-700 mb-4">🌈 Exploración de Caño Cristales</h3>
+    <p class="text-gray-600">
+      Descubre el río de los cinco colores, una maravilla natural que solo puedes encontrar en la Sierra de La Macarena. Camina por sus senderos y sumérgete en este fenómeno único.
+    </p>
+  </div>
 
-- **Cascadas y piscinas naturales**: La sierra está llena de cascadas impresionantes, algunas de ellas ubicadas en lugares remotos y rodeadas de selva virgen. Las piscinas naturales de agua cristalina son perfectas para un baño refrescante en medio de la naturaleza.
+  <!-- Tarjeta 2: Observación de Flora y Fauna -->
+  <div class="bg-white shadow-xl rounded-lg p-6 transition-transform transform hover:scale-110 duration-500 hover:shadow-2xl hover:bg-green-100">
+    <h3 class="text-2xl font-bold text-green-700 mb-4">🦜 Observación de Flora y Fauna</h3>
+    <p class="text-gray-600">
+      La Sierra de La Macarena alberga más de 500 especies de aves, 1200 especies de plantas y una variedad de mamíferos y reptiles. Ideal para los amantes de la naturaleza y la biodiversidad.
+    </p>
+  </div>
 
-- **Senderismo**: Los visitantes pueden explorar una variedad de rutas de senderismo que atraviesan diferentes paisajes, desde sabanas hasta selvas densas. A lo largo del camino, es común encontrar fauna local, como monos, aves exóticas y, si tienes suerte, hasta jaguares.
+</div>
 
-- **Observación de aves**: La Sierra de La Macarena es un paraíso para los observadores de aves, con cientos de especies que habitan en la zona. Entre las más destacadas se encuentran guacamayas, colibríes y águilas.
+---
 
-- **Comunidades locales**: La interacción con las comunidades indígenas y campesinas de la región es una parte fundamental de la experiencia en La Macarena. Estas comunidades han vivido en armonía con la naturaleza durante siglos y ofrecen una rica perspectiva cultural sobre la conservación y el uso sostenible de los recursos naturales.
+<!-- Horario de acceso al Parque Nacional Natural Sierra de La Macarena -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🕒 Horario de acceso al Parque Nacional Natural Sierra de La Macarena
+  </h2>
+</div>
 
-## Cómo llegar al Parque Nacional Natural Sierra de La Macarena
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">De <span class="font-bold text-green-700">7:00 AM</span> a <span class="font-bold text-green-700">5:00 PM</span>, todos los días de la temporada de acceso.</p>
+  <p class="mt-6 text-gray-500">La temporada de acceso está sujeta a las condiciones climáticas, por lo general, de junio a noviembre.</p>
 
-La entrada principal al parque es a través del municipio de **La Macarena**, al que se puede llegar en avión desde ciudades como Bogotá o Villavicencio. Desde La Macarena, los visitantes pueden tomar un transporte fluvial o terrestre para acceder a los puntos principales del parque, incluidos los senderos que llevan a **Caño Cristales**.
+  <!-- Imagen de tarifas centrada -->
+  <div class="flex justify-center mt-8 mb-16">
+    <img src="/img/tarifa-macarena.jpg" alt="Tarifas del Parque Sierra de La Macarena" class="rounded-lg shadow-lg max-w-full hover:scale-110 transition-transform duration-500" style="max-height: 400px;" />
+  </div>
+</div>
 
-## Mejor época para visitar
+<!-- Consejos para una mejor visita -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📌 Consejos para una mejor visita
+  </h2>
+</div>
 
-La mejor temporada para visitar el parque y disfrutar de **Caño Cristales** es entre **junio y noviembre**, cuando las plantas acuáticas florecen y el río muestra sus colores vibrantes. Durante el resto del año, aunque el paisaje sigue siendo hermoso, el nivel del agua puede no permitir la aparición de los colores característicos.
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16 mb-16 max-w-6xl mx-auto text-center">
+  
+  <!-- Consejo 1: Equipo de Caminata -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Equipo de Caminata
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      Lleva zapatos cómodos para caminar y una mochila con agua, ya que las rutas en la sierra pueden ser largas y demandantes.
+    </p>
+  </div>
 
-## Recomendaciones para tu visita
+  <!-- Consejo 2: Ropa Ligera y Protección Solar -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Ropa Ligera y Protección Solar
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      Usa ropa ligera, un sombrero y protector solar para protegerte del sol en las caminatas. Asegúrate de que el protector solar sea biodegradable para cuidar el ecosistema.
+    </p>
+  </div>
 
-- **Contrata guías locales**: Por motivos de conservación, es obligatorio visitar el parque con guías certificados que conocen el área y te proporcionarán una experiencia enriquecedora y segura.
-- **Equipo adecuado**: Lleva ropa cómoda y ligera para caminar, además de un sombrero, protector solar y repelente de insectos. También es importante llevar suficiente agua.
-- **Respeta el medio ambiente**: La Sierra de La Macarena es un lugar frágil y protegido. Asegúrate de seguir las normas del parque, no dejes basura y evita alterar el entorno natural.
-- **No olvides tu cámara**: Este es uno de los lugares más fotogénicos de Colombia, así que asegúrate de llevar tu cámara o teléfono cargado para capturar momentos increíbles.
+  <!-- Consejo 3: Respeto al Medio Ambiente -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Respeto al Medio Ambiente
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      No arrojes basura y sigue las instrucciones de los guías para proteger este frágil ecosistema. La Sierra de La Macarena es un lugar único y debemos conservarlo.
+    </p>
+  </div>
 
-## Conservación y sostenibilidad
+</div>
 
-El **Parque Nacional Natural Sierra de La Macarena** es una de las áreas más protegidas de Colombia debido a su importancia ecológica y su fragilidad. Las autoridades locales y nacionales, junto con las comunidades indígenas, trabajan arduamente para preservar el parque. Al visitar este lugar, estarás contribuyendo al turismo sostenible y apoyando los esfuerzos de conservación.
+<!-- Una experiencia única en la Sierra de La Macarena -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🏞 Una experiencia única en la Sierra de La Macarena
+  </h2>
+</div>
 
-## Una experiencia única en la naturaleza
+<div class="bg-white shadow-lg rounded-lg p-10 text-center mt-16 mb-16 max-w-4xl mx-auto hover:bg-green-50 transition-transform transform hover:scale-105 duration-500">
+  <p class="text-gray-700 text-xl leading-relaxed">
+    El Parque Nacional Natural Sierra de La Macarena ofrece a sus visitantes una experiencia incomparable, donde la naturaleza y la biodiversidad se fusionan en uno de los paisajes más impresionantes de Colombia. ¡No te pierdas la oportunidad de visitarlo!
+  </p>
+</div>
 
-El **Parque Nacional Natural Sierra de La Macarena** es mucho más que solo **Caño Cristales**. Es un lugar donde la biodiversidad florece, donde puedes desconectarte del mundo moderno y reconectar con la naturaleza en su forma más pura. Si buscas aventura, tranquilidad y un contacto profundo con la naturaleza, este parque es el destino perfecto para ti.
+<!-- Imagen de descripción centrada y más grande -->
+<div class="flex justify-center mt-16 mb-16">
+  <img src="/img/sierra-macarena.jpg" alt="Parque Sierra de La Macarena" class="rounded-lg shadow-lg max-w-4xl hover:scale-110 transition-transform duration-500" style="width: 100%; height: auto;" />
+</div>
