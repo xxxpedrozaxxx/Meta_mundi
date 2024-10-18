@@ -2,55 +2,141 @@
 title: 'Parque Las Malocas'
 description: 'Uno de los destinos más emblemáticos del Meta, donde se encuentra Caño Cristales, también llamado el "río de los cinco colores". Es famoso por sus aguas cristalinas que adquieren tonos de amarillo, verde, azul, negro y rojo gracias a una planta acuática.'
 pubDate: '10/02/2024'
-heroImage: '/malocas.jpg'
+heroImage: '/img/malocas.jpg'
 ---
 
-# Descubre el Parque Las Malocas: El Corazón Cultural de los Llanos en Villavicencio
+<!-- Sección Principal con Parallax -->
+<section class="relative bg-cover bg-center h-screen overflow-hidden" style="background-image: url('https://ejemplo.com/parque-las-malocas.jpg');">
+  <!-- Fondo con transparencia -->
+  <div class="absolute inset-0 bg-green-600 bg-opacity-50 flex items-center justify-center animate-fade-in">
+    <!-- Contenedor de texto más amplio y estético -->
+    <div class="text-center text-white p-12 max-w-2xl bg-opacity-90 bg-green-900 rounded-xl shadow-2xl transform hover:scale-105 transition duration-500">
+      <h1 class="text-5xl font-bold animate-pulse text-shadow-md">
+        🐴 Parque Las Malocas: Tradición Llanera en Vivo
+      </h1>
+      <p class="mt-8 text-2xl leading-relaxed">
+        Un lugar que revive las tradiciones llaneras a través de muestras culturales, espectáculos ecuestres, y mucho más. Vive la cultura del llano en el Parque Las Malocas.
+      </p>
+    </div>
+  </div>
+</section>
 
-Si estás buscando una experiencia auténtica en los Llanos Orientales, el **Parque Las Malocas** en Villavicencio es el lugar perfecto para conocer la cultura llanera en todo su esplendor. Este parque temático celebra la rica herencia de los llanos, ofreciendo a los visitantes la oportunidad de sumergirse en la historia, tradiciones y costumbres de los llaneros.
+<!-- Título centrado de "¿Por qué visitar el Parque Las Malocas?" -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🌟 ¿Por qué visitar el Parque Las Malocas?
+  </h2>
+</div>
 
-## ¿Qué hace especial al Parque Las Malocas?
+<div class="p-8 bg-white shadow-lg rounded-lg mt-16 mb-16 text-center transition-transform transform hover:scale-105 hover:shadow-2xl duration-300">
+  <p class="text-gray-700 text-xl leading-relaxed">
+    El Parque Las Malocas es un homenaje a la cultura llanera. Ubicado en Villavicencio, este parque temático ofrece a sus visitantes un viaje a través de la historia, la cultura y las costumbres de los llanos orientales. Disfruta de espectáculos, exhibiciones ecuestres, y eventos que celebran la vida llanera.
+  </p>
+</div>
 
-El **Parque Las Malocas** es un tributo viviente a la vida llanera. A través de recreaciones de pueblitos tradicionales, exhibiciones de coleo (el deporte llanero por excelencia) y presentaciones culturales, los visitantes pueden experimentar de primera mano lo que significa ser llanero. El parque destaca por su atención al detalle y por ser un espacio diseñado tanto para la educación como para el entretenimiento.
+---
 
-## Atractivos Principales
+<!-- Actividades para disfrutar en el Parque Las Malocas -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🐴 Actividades para disfrutar en el Parque Las Malocas
+  </h2>
+</div>
 
-- **Pueblito Llanero**: Una réplica de un pueblo tradicional de los Llanos, con casas coloniales, tiendas y una plaza central que te transportará a tiempos pasados. Este es el escenario ideal para entender cómo era la vida en esta región hace décadas.
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 mb-16 text-center">
   
-- **Espectáculos de Coleo**: Si quieres ver un deporte único en Colombia, el coleo es una parada obligatoria. Aquí podrás ver cómo los llaneros, a caballo, muestran su habilidad para derribar toros en un espectáculo lleno de adrenalina.
+  <!-- Tarjeta 1: Espectáculos Ecuestres -->
+  <div class="bg-white shadow-xl rounded-lg p-6 transition-transform transform hover:scale-110 duration-500 hover:shadow-2xl hover:bg-green-100">
+    <h3 class="text-2xl font-bold text-green-700 mb-4">🐎 Espectáculos Ecuestres</h3>
+    <p class="text-gray-600">
+      Admira el arte y la destreza de los jinetes y sus caballos en espectáculos ecuestres que muestran la habilidad y tradición del llano.
+    </p>
+  </div>
+
+  <!-- Tarjeta 2: Muestras Culturales -->
+  <div class="bg-white shadow-xl rounded-lg p-6 transition-transform transform hover:scale-110 duration-500 hover:shadow-2xl hover:bg-green-100">
+    <h3 class="text-2xl font-bold text-green-700 mb-4">🎭 Muestras Culturales</h3>
+    <p class="text-gray-600">
+      Sumérgete en la cultura llanera con presentaciones de música, danza, y teatro que resaltan las costumbres y la vida cotidiana de los llaneros.
+    </p>
+  </div>
+
+</div>
+
+---
+
+<!-- Horario del Parque Las Malocas -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🕒 Horario del Parque Las Malocas
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">De <span class="font-bold text-green-700">8:00 AM</span> a <span class="font-bold text-green-700">6:00 PM</span>, todos los días.</p>
+  <p class="mt-6 text-gray-500">Disfruta de la cultura llanera y participa en las actividades diarias del parque.</p>
+
+  <!-- Imagen de tarifas centrada -->
+  <div class="flex justify-center mt-8 mb-16">
+    <img src="/img/malocas2.jpg" alt="Tarifas del Parque Las Malocas" class="rounded-lg shadow-lg max-w-full hover:scale-110 transition-transform duration-500" style="max-height: 400px;" />
+  </div>
+</div>
+
+<!-- Consejos para una mejor visita -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📌 Consejos para una mejor visita
+  </h2>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16 mb-16 max-w-6xl mx-auto text-center">
   
-- **Senderos Ecológicos y Cabalgatas**: Para los amantes de la naturaleza, el parque ofrece senderos donde podrás explorar la fauna y flora local. También se organizan paseos a caballo, una actividad que te permitirá disfrutar del paisaje llanero de manera auténtica.
-  
-- **Museo del Coleo y la Vaquería**: Aprende más sobre la tradición del trabajo con ganado, el uso de los caballos y la vida rural llanera. Este museo te ayudará a comprender mejor la conexión de los llaneros con sus animales y su entorno.
+  <!-- Consejo 1: Protección Solar -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Protección Solar
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      Lleva protector solar, un sombrero y gafas para protegerte del sol mientras disfrutas de las actividades al aire libre.
+    </p>
+  </div>
 
-## Actividades para Disfrutar
+  <!-- Consejo 2: Ropa Cómoda -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Ropa Cómoda
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      Usa ropa ligera y cómoda para caminar y participar en las actividades culturales y ecuestres.
+    </p>
+  </div>
 
-El **Parque Las Malocas** no solo es un lugar para ver, sino también para vivir. Ofrece una variedad de actividades que permiten a los visitantes conectarse con la cultura llanera:
+  <!-- Consejo 3: Respeto a los Animales -->
+  <div class="bg-gray-50 shadow-lg rounded-lg p-8 transition-transform transform hover:scale-105 duration-300">
+    <h3 class="text-3xl font-bold text-green-800 flex items-center justify-center">
+      ✅ Respeto a los Animales
+    </h3>
+    <p class="text-xl text-gray-700 mt-6">
+      Sigue las indicaciones de los guías y respeta los animales que participan en los espectáculos ecuestres.
+    </p>
+  </div>
 
-- **Gastronomía Llanera**: No puedes dejar de probar la tradicional **mamona** (carne asada) o las deliciosas arepas de maíz que forman parte de la cocina llanera. A lo largo del parque encontrarás lugares para disfrutar de la comida típica.
-  
-- **Espectáculos Folclóricos**: Durante todo el año, el parque organiza eventos como el **Festival del Joropo**, donde la música y el baile tradicional llanero cobran vida.
-  
-- **Talleres Culturales**: Puedes participar en talleres de música y baile llanero, aprender a tocar el arpa, las maracas o bailar el joropo, un ritmo vibrante que es sinónimo de los Llanos Orientales.
+</div>
 
-## ¿Cómo llegar al Parque Las Malocas?
+<!-- Una experiencia para conectarse con la cultura llanera -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    🌾 Una experiencia para conectarse con la cultura llanera
+  </h2>
+</div>
 
-El parque está convenientemente ubicado a solo 3 kilómetros de Villavicencio, en la vía que conduce a Acacías. Puedes llegar fácilmente en carro o taxi desde la ciudad, lo que lo convierte en una excelente opción para una escapada de un día.
+<div class="bg-white shadow-lg rounded-lg p-10 text-center mt-16 mb-16 max-w-4xl mx-auto hover:bg-green-50 transition-transform transform hover:scale-105 duration-500">
+  <p class="text-gray-700 text-xl leading-relaxed">
+    El Parque Las Malocas es una parada obligatoria para quienes desean vivir y entender la vida llanera. Desde los espectáculos ecuestres hasta las muestras culturales, cada rincón del parque ofrece una experiencia única que conecta a los visitantes con la rica tradición de los llanos.
+  </p>
+</div>
 
-## Horarios y Tarifas
-
-El **Parque Las Malocas** está abierto de martes a domingo, de 8:00 AM a 5:00 PM. Las tarifas varían según la temporada y la edad, con descuentos disponibles para estudiantes y grupos.
-
-## Consejos para los Visitantes
-
-- **Vístete cómodamente**: Lleva ropa ligera y calzado adecuado para caminar. Las actividades al aire libre son el corazón del parque, así que estar cómodo es clave.
-  
-- **Protección solar**: No olvides llevar protector solar, sombrero y agua, especialmente en los días más calurosos.
-  
-- **Conexión con la cultura**: No te pierdas los talleres y espectáculos. Son una gran oportunidad para aprender y disfrutar del folclore llanero.
-
-## Un Destino Imperdible en los Llanos
-
-El **Parque Las Malocas** es mucho más que un parque temático; es un lugar donde la historia y las tradiciones de los llaneros cobran vida. Con actividades para toda la familia, desde emocionantes exhibiciones de coleo hasta recorridos ecológicos y experiencias culinarias únicas, es un destino imprescindible para quienes quieran conocer el corazón cultural de los Llanos Orientales.
-
-Ven a Las Malocas y descubre la esencia del llanero en cada rincón.
+<!-- Imagen de descripción centrada y más grande -->
+<div class="flex justify-center mt-16 mb-16">
+  <img src="/img/malocas3.jpg" alt="Parque Las Malocas" class="rounded-lg shadow-lg max-w-4xl hover:scale-110 transition-transform duration-500" style="width: 100%; height: auto;" />
+</div>
