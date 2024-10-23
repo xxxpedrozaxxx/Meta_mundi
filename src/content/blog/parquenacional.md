@@ -82,6 +82,27 @@ heroImage: '/img/parque-nacional.jpg'
   </div>
 </div>
 
+---
+
+<!-- Ubicación del Parque Nacional Natural Sierra de La Macarena -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Parque Nacional Natural Sierra de La Macarena
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El **Parque Nacional Natural Sierra de La Macarena** se encuentra en el departamento del Meta, Colombia. El principal acceso al parque es a través del municipio de La Macarena, al cual se puede llegar en avión desde Bogotá o Villavicencio.
+  </p>
+  <p class="mt-6 text-gray-500">Desde La Macarena, se puede contratar guías locales que conocen las rutas hacia Caño Cristales y otros sitios importantes del parque.</p>
+
+  <!-- Mapa embebido de Google Maps -->
+  <iframe class="mt-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31762.70303293079!2d-73.79301698540591!3d2.190514950325926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e301f0e84dbbcbf%3A0x353c6749c6ef2706!2sLa%20Macarena%2C%20Meta!5e0!3m2!1ses!2sco!4v1602169373449!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -122,6 +143,8 @@ heroImage: '/img/parque-nacional.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia única en la Sierra de La Macarena -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
