@@ -78,6 +78,29 @@ heroImage: '/img/mirador3.jpg'
   <p class="mt-6 text-gray-500">Recomendamos visitarlo durante las primeras horas de la mañana o al atardecer para disfrutar de las mejores vistas.</p>
 </div>
 
+---
+
+<!-- Ubicación del Mirador Matapalo -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Mirador Matapalo
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El **Mirador Matapalo** se encuentra en el municipio de Restrepo, Meta, a aproximadamente 45 minutos de Villavicencio. Para llegar, puedes tomar la carretera hacia Restrepo y seguir las indicaciones hacia el mirador, que se encuentra en una zona elevada con vistas impresionantes de los Llanos Orientales.
+  </p>
+  <p class="mt-6 text-gray-500">Es recomendable visitar con un vehículo adecuado, ya que el acceso al mirador puede tener tramos de camino destapado.</p>
+
+ <!-- Mapa embebido de Google Maps -->
+<div style="display: flex; justify-content: center; margin-top: 2rem;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12745.592833487732!2d-73.6465476!3d4.1013826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e35a4f3c2ad37%3A0x9b927542144bbef0!2sMirador%20Matapalo!5e0!3m2!1ses!2sco!4v1602156371977!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -119,6 +142,8 @@ heroImage: '/img/mirador3.jpg'
 
 </div>
 
+---
+
 <!-- Una experiencia inolvidable en el Mirador Matapalo -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -131,4 +156,3 @@ heroImage: '/img/mirador3.jpg'
     El Mirador Matapalo te ofrece una experiencia inolvidable, donde la majestuosidad del paisaje llanero te invita a desconectarte y disfrutar de la tranquilidad y la naturaleza que solo los Llanos Orientales pueden ofrecer.
   </p>
 </div>
-

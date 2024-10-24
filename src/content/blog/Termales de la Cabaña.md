@@ -78,6 +78,27 @@ heroImage: '/img/termales.jpg'
   <p class="mt-6 text-gray-500">Aprovecha el horario para disfrutar de un día completo de relajación en los termales y las actividades naturales de la zona.</p>
 </div>
 
+---
+
+<!-- Ubicación de los Termales de la Cabaña -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación de los Termales de la Cabaña
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    Los **Termales de la Cabaña** están ubicados en el municipio de San Juanito, Meta. El acceso es a través de la vía que conecta Villavicencio con San Juanito, una ruta que atraviesa hermosos paisajes andinos. 
+  </p>
+  <p class="mt-6 text-gray-500">Es recomendable ir en vehículo 4x4 debido a las condiciones de algunas partes del camino, y siempre es buena idea ir acompañado de un guía local para aprovechar al máximo la experiencia.</p>
+
+  <!-- Mapa embebido de Google Maps -->
+  <iframe class="mt-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15938.86917778479!2d-73.64153340000001!3d4.2523320999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f4c5c55e792c1%3A0xf03e8b8f01e2e72e!2sTermales%20La%20Caba%C3%B1a!5e0!3m2!1ses!2sco!4v1610200332727!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -118,6 +139,8 @@ heroImage: '/img/termales.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia inolvidable en los Termales de la Cabaña -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

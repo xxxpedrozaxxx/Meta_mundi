@@ -3,6 +3,7 @@ title: 'Embalse de Guavio'
 description: 'Es llamado cariñosamente así porque a través de sus aguas cristalinas puedes observar tonos amarillos, azules, verdes, rojos y negros. Este milagro de la naturaleza se debe a la Macarenia clavigera, una planta acuática endémica que al contacto con los rayos del sol ‘pinta’ de hermosos colores a Caño Cristales.'
 pubDate: '10/03/2024'
 heroImage: '/img/Embalse.jpg'
+
 ---
 
 ---
@@ -78,6 +79,29 @@ heroImage: '/img/Embalse.jpg'
   <p class="mt-6 text-gray-500">Disfruta de las actividades al aire libre en el embalse durante las horas de luz y aprovecha para explorar sus alrededores.</p>
 </div>
 
+---
+
+<!-- Ubicación del Embalse de Guavio -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Embalse de Guavio
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El **Embalse de Guavio** está ubicado en los municipios de Gachalá, Ubalá y Gachetá, en el departamento de Cundinamarca, Colombia. Para llegar, puedes tomar la carretera que conecta Bogotá con Gachalá, siguiendo las indicaciones hacia el embalse.
+  </p>
+  <p class="mt-6 text-gray-500">El viaje ofrece vistas panorámicas de la cordillera de los Andes, y es recomendable llevar un vehículo adecuado para las condiciones de la carretera.</p>
+
+  <!-- Mapa embebido de Google Maps -->
+<div style="display: flex; justify-content: center; margin-top: 2rem;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.873529949127!2d-73.53081625!3d4.7135368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f627fbdc2b7f5%3A0xa6b47474f2454094!2sEmbalse%20El%20Guavio!5e0!3m2!1ses!2sco!4v1602162876168!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -118,6 +142,8 @@ heroImage: '/img/Embalse.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia inolvidable en el Embalse de Guavio -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

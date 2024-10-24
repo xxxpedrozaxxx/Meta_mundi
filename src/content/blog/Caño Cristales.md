@@ -3,6 +3,7 @@ title: 'Caño Cristales'
 description: 'Es llamado cariñosamente así porque a través de sus aguas cristalinas puedes observar tonos amarillos, azules, verdes, rojos y negros. Este milagro de la naturaleza se debe a la Macarenia clavigera, una planta acuática endémica que al contacto con los rayos del sol ‘pinta’ de hermosos colores a Caño Cristales.'
 pubDate: '10/03/2024'
 heroImage: '/img/Caño2.jpg'
+
 ---
 
 <!-- Sección Principal con Parallax -->
@@ -82,6 +83,29 @@ heroImage: '/img/Caño2.jpg'
   </div>
 </div>
 
+---
+
+<!-- Ubicación de Caño Cristales -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación de Caño Cristales
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    Caño Cristales se encuentra en el municipio de La Macarena, en el departamento del Meta, Colombia. Para llegar, es necesario tomar un vuelo desde Bogotá o Villavicencio hacia La Macarena. Desde allí, un corto trayecto en bote y caminata te llevará a este increíble destino natural.
+  </p>
+  <p class="mt-6 text-gray-500">Asegúrate de coordinar tu viaje con un guía autorizado para garantizar el acceso y la preservación del área protegida.</p>
+  
+  <!-- Mapa embebido de Google Maps -->
+<div style="display: flex; justify-content: center; margin-top: 2rem;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12674.5623617205!2d-73.6493334!3d4.142688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e6cfed3e2b5%3A0xdabe431d8c676b3a!2sCa%C3%B1o%20Cristales!5e0!3m2!1ses!2sco!4v1602145156484!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -122,6 +146,8 @@ heroImage: '/img/Caño2.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia única en Caño Cristales -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

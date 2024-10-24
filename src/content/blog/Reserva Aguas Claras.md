@@ -78,6 +78,27 @@ heroImage: '/img/Reserva.jpg'
   <p class="mt-6 text-gray-500">Disfruta de las actividades naturales durante todo el día y aprovecha para recorrer sus senderos y ríos.</p>
 </div>
 
+---
+
+<!-- Ubicación de la Reserva Aguas Claras -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación de la Reserva Aguas Claras
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    La **Reserva Aguas Claras** está ubicada en el municipio de Villavicencio, Meta. Se puede acceder fácilmente en vehículo desde Villavicencio, siguiendo la ruta que conecta hacia el sur de la ciudad. 
+  </p>
+  <p class="mt-6 text-gray-500">Es recomendable ir acompañado de un guía local que conozca bien los senderos y los ríos de la reserva.</p>
+
+  <!-- Mapa embebido de Google Maps -->
+  <iframe class="mt-8" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.873529949127!2d-73.6385375!3d4.151342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f5eb2b5b0177f%3A0xdfcf47e9b74f59a7!2sReserva%20Aguas%20Claras!5e0!3m2!1ses!2sco!4v1602162876168!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -118,6 +139,8 @@ heroImage: '/img/Reserva.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia inolvidable en la Reserva Aguas Claras -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

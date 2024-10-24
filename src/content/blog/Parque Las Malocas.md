@@ -82,6 +82,29 @@ heroImage: '/img/malocas.jpg'
   </div>
 </div>
 
+---
+
+<!-- Ubicación del Parque Las Malocas -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Parque Las Malocas
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El **Parque Las Malocas** está ubicado en la ciudad de **Villavicencio**, en el departamento del **Meta**, Colombia. Se encuentra en la **vía Catama**, una de las principales rutas de la región, a solo unos minutos del centro de la ciudad. 
+  </p>
+  <p class="mt-6 text-gray-500">Es fácil llegar en automóvil o transporte público desde el centro de Villavicencio.</p>
+
+  <!-- Mapa embebido de Google Maps -->
+<div class="flex justify-center mt-8">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15937.77509154265!2d-73.6567302!3d4.1526457!2m3!1f0!2f0!3f0!3m2
+
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -122,6 +145,8 @@ heroImage: '/img/malocas.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia para conectarse con la cultura llanera -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

@@ -83,6 +83,30 @@ heroImage: '/img/bioparque.jpg'
   </div>
 </div>
 
+---
+
+<!-- Ubicación del Bioparque -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Bioparque Los Ocarros
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El Bioparque Los Ocarros se encuentra a las afueras de Villavicencio, Meta, a solo 3 kilómetros del centro de la ciudad. Se puede acceder fácilmente en carro o transporte público. 
+  </p>
+  <p class="mt-6 text-gray-500">Te recomendamos disfrutar de los paisajes mientras recorres la vía que te llevará directamente al parque.</p>
+  
+<!-- Mapa embebido de Google Maps -->
+<div style="display: flex; justify-content: center; margin-top: 2rem;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12674.5623617205!2d-73.6493334!3d4.142688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e6cfed3e2b5%3A0xdabe431d8c676b3a!2sBioparque%20Los%20Ocarros!5e0!3m2!1ses!2sco!4v1602145156484!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -123,6 +147,8 @@ heroImage: '/img/bioparque.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia para conectarse con la naturaleza -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">

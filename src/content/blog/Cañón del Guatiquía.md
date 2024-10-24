@@ -78,6 +78,29 @@ heroImage: '/img/Cañonrio.jpg'
   <p class="mt-6 text-gray-500">Aprovecha las primeras horas del día para explorar el cañón, ya que las temperaturas son más frescas y la luz es perfecta para fotografías.</p>
 </div>
 
+---
+
+<!-- Ubicación del Cañón del Guatiquía -->
+<div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
+  <h2 class="text-4xl font-bold text-black leading-tight">
+    📍 Ubicación del Cañón del Guatiquía
+  </h2>
+</div>
+
+<div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-16 mb-16 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+  <p class="text-xl text-gray-600">
+    El **Cañón del Guatiquía** está ubicado en Villavicencio, Meta, a pocos kilómetros del centro de la ciudad. Desde allí, puedes acceder al cañón tomando la vía hacia la vereda El Carmen. El acceso es fácil en transporte particular o mediante tours organizados.
+  </p>
+  <p class="mt-6 text-gray-500">Recomendamos realizar tu visita con guías locales que conocen bien la región y los mejores senderos.</p>
+
+<!-- Mapa embebido de Google Maps -->
+<div style="display: flex; justify-content: center; margin-top: 2rem;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31521.504127680595!2d-73.64542802816659!3d4.129125300895831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e35d19aa8fd39%3A0x4c3dbf5e519d8d4a!2sCa%C3%B1%C3%B3n%20del%20Guatiqu%C3%ADa!5e0!3m2!1ses!2sco!4v1602156371977!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+
+---
+
 <!-- Consejos para una mejor visita -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
   <h2 class="text-4xl font-bold text-black leading-tight">
@@ -118,6 +141,8 @@ heroImage: '/img/Cañonrio.jpg'
   </div>
 
 </div>
+
+---
 
 <!-- Una experiencia inolvidable en el Cañón del Guatiquía -->
 <div class="text-center mx-auto mt-16 mb-16" style="max-width: 600px;">
