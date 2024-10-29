@@ -17,50 +17,45 @@ const posts = (await getCollection('blog')).sort(
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			main {
-				width: 960px;
+				width: 75%;
+				margin: auto;
+				padding: 20px;
 			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
-				gap: 2rem;
+			.card {
 				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				
-			}
-			ul li {
-				width: calc(50% - 1rem);
-			}
-			ul li * {
-				text-decoration: none;
-				transition: 0.2s ease;
-			}
-			ul li:first-child {
-				width: 100%;
-				margin-bottom: 1rem;
 				text-align: center;
-			}
-			ul li:first-child img {
-				width: 100%;
-			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
-			}
-			ul li img {
-				margin-bottom: 0.5rem;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
 				border-radius: 12px;
+				overflow: hidden;
+				width: 100%;
+				transition: transform 0.3s ease, box-shadow 0.3s ease;
 			}
-			ul li a {
+			.card a {
 				display: block;
+				width: 100%;
+				color: inherit;
 			}
-			.title {
-				margin: 0;
+			.card img {
+				width: 100%;
+				height: auto;
+				transition: transform 0.3s ease;
+			}
+			.card h4 {
+				font-size: 1.75rem;
+				margin-top: 5px;
 				color: rgb(var(--black));
-				line-height: 1;
+				transition: color 0.3s ease;
 			}
-			.date {
-				margin: 0;
+			.card p {
 				color: rgb(var(--gray));
+				transition: color 0.3s ease;
+				margin-top: -10px;
+			}
+			.card:hover {
+				transform: scale(1.05);
+				box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
 			}
 			ul li a:hover h4,
 			ul li a:hover .date {
@@ -88,23 +83,34 @@ const posts = (await getCollection('blog')).sort(
 	</head>
 	<body>
 		<Header />
+		  
+		  <div class="relative bg-white p-10 shadow-lg rounded-lg max-w-4xl mx-auto mt-10 transition-transform transform hover:scale-105 hover:shadow-2xl duration-500 text-center">
+			<h2 class="text-4xl font-bold text-black leading-tight">
+				📍 Bienvenido al META 📍
+			  </h2>
+			<div style="display: flex; justify-content: center; margin-top: 2rem;">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12674.5623617205!2d-73.6493334!3d4.142688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e2e6cfed3e2b5%3A0xdabe431d8c676b3a!2sBioparque%20Los%20Ocarros!5e0!3m2!1ses!2sco!4v1602145156484!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		  	</div>
+		  </div>
+		  
 		<main>
 			<section>
-				<ul>
+				<div class="columns-3">
 					{
 						posts.map((post) => (
-							<li>
+							<li class="card">
 								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
+									<img class="hover:animate-pulse" width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 								</a>
 							</li>
+							<br>
 						))
 					}
-				</ul>
+				</div>
 			</section>
 		</main>
 		<Footer />
