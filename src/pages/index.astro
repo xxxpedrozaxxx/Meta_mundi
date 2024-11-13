@@ -13,58 +13,102 @@ import { fade, slide } from 'astro:transitions';
   </head>
   <body>
     <Header />
-    <div class="grid grid-flow-col grid-rows-2 translate-y-10">
-      <div transition:animate={slide({duration: "1s"})} class="transform scale-110 -rotate-6">
-        <img src="/img/Departamento.jpg" alt="" loading="lazy" />
-      </div>
-      <div transition:animate={slide({duration: "1s"})} class="col-start-2 transform rotate-6 translate-y-24">
-        <img src="/img/header.jpg" alt="" loading="lazy" />
-      </div>
-      <div transition:animate={slide({duration: "1s"})} class="transform translate-x-20 scale-110">
-        <img src="/img/header1.jpg" alt="" loading="lazy" />
-      </div>
-      <div transition:animate={slide({duration: "1s"})} class="transform translate-y-24 scale-90 -rotate-6">
-        <img src="/img/header2.jpg" alt="" loading="lazy" />
-      </div>
-      <div transition:animate={slide({duration: "1s"})}
-        class="row-start-1 col-start-2 scale-90 col-span-2 rotate-6 translate-y-10">
-        <img src="/img/header3.jpg" alt="" loading="lazy" />
-      </div>
-    </div>
     <main>
-		<div class="relative isolate px-6 pt-14 lg:px-8">
-			<div class="absolute transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
-			  <div class="animate-pulse  relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#73c77e] to-[#25614f] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+		<div class="grid grid-flow-col grid-rows-2">
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="transform scale-110 -rotate-6"
+			>
+			  <img src="/img/Departamento.jpg" alt="" loading="lazy" />
 			</div>
-
-			  <div class="text-center">
-				<h1 class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">¿Quiénes somos?</h1>
-						<p class="mt-6 text-lg leading-8 text-gray-600">Somos una plataforma dedicada a resaltar las maravillas turísticas de
-							Colombia. Nuestro propósito es guiar a quienes desean explorar nuestro
-							país, brindando información detallada sobre destinos, cultura y
-							tradiciones. Creemos en el poder de los viajes para conectar personas y
-							enriquecer experiencias, y estamos aquí para ayudarte a descubrir todo
-							lo que Colombia tiene para ofrecer.</p>
-					<br>
-				<h1 class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Nuestra Misión</h1>
-						<p class="mt-6 text-lg leading-8 text-gray-600">Nuestra misión es ser el puente entre Colombia y el mundo, compartiendo la
-						riqueza cultural y natural de nuestro país. Buscamos inspirar a viajeros
-						de todas partes a sumergirse en nuestras tradiciones, paisajes y sabores,
-						facilitando información y recursos que hagan de su visita una experiencia
-						inolvidable.</p>
-					<br>
-				<h1 class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Nuestra Visión</h1>
-						<p class="mt-6 text-lg leading-8 text-gray-600">Aspiramos a ser la plataforma líder en promoción turística de Colombia,
-							reconocida por la calidad de nuestra información y el compromiso con el
-							turismo sostenible. Queremos contribuir al desarrollo de las comunidades
-							locales y al fortalecimiento de la imagen positiva de Colombia a nivel
-							internacional.</p>
-					<br>
-			  </div>
-			<div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
-			  <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#468666] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="col-start-2 rotate-6 translate-y-24 transform translate-x-9 scale-110"
+			>
+			  <img src="/img/header.jpg" alt="" loading="lazy" />
+			</div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="transform translate-x--20 scale-110"
+			>
+			  <img src="/img/header1.jpg" alt="" loading="lazy" />
+			</div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="transform translate-y-24 translate-x-24 scale-110 -rotate-6"
+			>
+			  <img src="/img/header2.jpg" alt="" loading="lazy" />
+			</div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="row-start-1 col-start-2 scale-110 col-span-2 rotate-6 translate-y-10"
+			>
+			  <img src="/img/header3.jpg" alt="" loading="lazy" />
 			</div>
 		</div>
+
+      <div class="text-center">
+        <h1
+          class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+        >
+          ¿Quiénes somos?
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">
+          Somos una plataforma dedicada a resaltar las maravillas turísticas de
+          Colombia. Nuestro propósito es guiar a quienes desean explorar nuestro
+          país, brindando información detallada sobre destinos, cultura y
+          tradiciones. Creemos en el poder de los viajes para conectar personas
+          y enriquecer experiencias, y estamos aquí para ayudarte a descubrir
+          todo lo que Colombia tiene para ofrecer.
+        </p>
+		<br>
+        <div class="grid grid-flow-col grid-rows-1 animate-pulse">
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="transform scale-110 -rotate-6"
+			>
+			  <img src="/img/Departamento.jpg" alt="" loading="lazy" />
+			</div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="col-start-3 rotate-6 transform scale-110"
+			>
+			  <img src="/img/header.jpg" alt="" loading="lazy" />
+			</div>
+			<div
+			  transition:animate={slide({ duration: '1s' })}
+			  class="transform translate-x--20 scale-110"
+			>
+			  <img src="/img/header1.jpg" alt="" loading="lazy" />
+			</div>
+		</div>
+        <h1
+          class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+        >
+          Nuestra Misión
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">
+          Nuestra misión es ser el puente entre Colombia y el mundo,
+          compartiendo la riqueza cultural y natural de nuestro país. Buscamos
+          inspirar a viajeros de todas partes a sumergirse en nuestras
+          tradiciones, paisajes y sabores, facilitando información y recursos
+          que hagan de su visita una experiencia inolvidable.
+        </p>
+        <br />
+        <h1
+          class="text-balance text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+        >
+          Nuestra Visión
+        </h1>
+        <p class="mt-6 text-lg leading-8 text-gray-600">
+          Aspiramos a ser la plataforma líder en promoción turística de
+          Colombia, reconocida por la calidad de nuestra información y el
+          compromiso con el turismo sostenible. Queremos contribuir al
+          desarrollo de las comunidades locales y al fortalecimiento de la
+          imagen positiva de Colombia a nivel internacional.
+        </p>
+        <br />
+      </div>
     </main>
     <Footer />
   </body>
