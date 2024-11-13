@@ -1,236 +1,241 @@
 ---
 import Layout from '../layouts/BlogPost.astro';
-import eliana from '../assets/eliana.jpg';
 ---
 
 <Layout
-  title="About Me"
-  description="Lorem ipsum dolor sit amet"
-  pubDate={new Date('August 08 2021')}
+  title="Nuestras habilidades"
+  description="Nuestras habilidades"
+  pubDate={new Date('November 13 2024')}
 >
-  
-
-  <section class="max-w-7xl mx-auto p-8 lg:p-16 bg-white shadow-lg rounded-lg">
-    <!-- Contenedor de imágenes estilo collage adaptable -->
+  <section class=" mx-auto lg:p-16 bg-white shadow-lg rounded-lg">
     <div class="flex overflow-hidden rounded-lg shadow-md h-[500px] w-full">
-      <div class="flex items-center justify-center w-1/3 h-full bg-gray-100">
+      <div class="flex items-center justify-center w-1/3 h-full bg-gray-200">
         <img
-          src="https://res.cloudinary.com/dzesri3ow/image/upload/v1731478763/mx0vzce2xo3p4sdv1o67.jpg"
+          src="/img/eliana.jpg"
           alt="Imagen 1"
           class="w-64 h-[700px] object-cover"
         />
       </div>
-      <div class="flex items-center justify-center w-1/3 h-full bg-gray-100">
+      <div class="flex items-center justify-center w-1/3 h-full bg-gray-200">
         <img
-          src="https://res.cloudinary.com/dzesri3ow/image/upload/v1731478897/txipzvdpothzijjgb0e9.jpg"
+          src="/img/obando.jpg"
           alt="Imagen 2"
-          class="w-64 h-[700px] object-cover"
+          class="w-64 h-[500px] object-cover"
         />
       </div>
-      <div class="flex items-center justify-center w-1/3 h-full bg-gray-100">
+      <div class="flex items-center justify-center w-1/3 h-full bg-gray-200">
         <img
-          src="https://lh3.googleusercontent.com/a/ACg8ocJMQD3Mdlr1DawziiwyEvQr4vp6hh-M5GJNMTk2a3nbE88nib2B=s288-c-no"
+          src="/img/juan.jpg"
           alt="Imagen 3"
-          class="w-64 h-[700px] object-cover"
+          class="w-64 h-[550px] object-cover"
         />
       </div>
     </div>
-
-    <!-- Información principal -->
-    <div class="mt-10 text-center md:text-right">
-      <h1 class="text-5xl font-semibold text-gray-800 mb-6">Acerca de Nosotros</h1>
-      <p class="text-lg text-gray-600 mb-8">
-        Aquí puedes agregar una breve introducción sobre ti, como tus intereses y objetivos. Este espacio es ideal para compartir más detalles sobre tus proyectos y tus metas.
-      </p>
-      <p class="text-lg text-gray-600 mb-8">
-        Aprovecha esta sección para destacar tus habilidades y la misión que te motiva. Aquí puedes dar a conocer tus valores y el impacto que quieres generar con tu trabajo.
-      </p>
-      <p class="text-lg text-gray-600">
-        Es un excelente lugar para expresar tus pasiones y mostrar un poco de tu personalidad a quienes visitan tu sitio.
-      </p>
+  </section>
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <!-- Header Section -->
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-4">
+        Presente, soy <span class="text-purple-800">David</span>
+      </h1>
+      <h2 class="text-2xl font-medium flex gap-3 justify-center text-gray-600">
+        Encantado :D
+        <a href="https://github.com/Davoalef" target="_blank">
+          <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
+            ><path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              ></path></svg
+          >
+        </a>
+      </h2>
+      <span class="text-purple-800">Davoalef@gmail.com</span>
     </div>
-  </section>
-
-
-
-
-
-
-
-
-
-    
-  </section>
-
-
-	
-
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+        <div class="aspect-square overflow-hidden rounded-2xl transition-transform duration-700 ease-in-out transform hover:rotate-90">
+          <img 
+            src="/img/obando.jpg" 
+            alt="Profile" 
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="absolute -z-10 -bottom-4 -right-4 w-full h-full bg-gray-300 rounded-2xl"></div>
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-2xl font-semibold md:text-center animate-bounce">Conóceme</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Soy una persona perseverante y competitiva ante cualquier desafío o tarea propuesta, con conocimientos en desarrollo y 
+          diseño de software y aplicaciones, gracias a la capacidad de proponer nuevas ideas para la eficacia y eficiencia 
+          en los objetivos por alcanzar.
+        </p>
   
-
-  <section class="max-w-5xl mx-auto p-6 lg:p-12 bg-white shadow-lg rounded-lg">
-    <div class="flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0">
-      <!-- Imagen de perfil -->
-      <img
-        src="https://avatars.githubusercontent.com/u/112028348?v=4&size=64"
-        alt="Imagen de perfil"
-        class="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-md"
-      />
-      <!-- Información principal -->
-      <div class="text-center md:text-left">
-        <h1 class="text-4xl font-semibold text-gray-800 mb-2">Acerca de Nosotros</h1>
-        <p class="text-gray-600">Aquí puedes agregar una breve introducción sobre ti, como tus intereses y objetivos.</p>
+        <!-- Skills Section -->
+        <div class="space-y-4">
+          <h4 class="font-medium">Habilidades principales</h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">UX Design</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">Web Design</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">UI/UX</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">Full Stack</span>
+          </div>
+        </div>
+  
+        <!-- Experience Section -->
+        <div class="space-y-4">
+          <h4 class="font-medium">Experiencia y formación</h4>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center">
+              <span class="font-medium">- Programador Full stack</span>
+              <span class="text-sm text-gray-500">Julio 2021 - Julio 2022</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">- Ingeniero de sistemas</span>
+              <span class="text-sm text-gray-500">Julio 2020 - Presente</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">- Ingles</span>
+              <span class="text-sm text-gray-500">Nivel B1</span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <!-- Descripción detallada -->
-    <div class="mt-6 space-y-4 text-gray-700">
-      <h2 class="text-2xl font-medium text-gray-800">Mi Historia</h2>
-      <p>Un párrafo donde hables sobre tu experiencia personal y profesional, y qué te ha llevado a trabajar en este proyecto.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Habilidades y Experiencia</h2>
-      <p>Descripción de tus habilidades principales. Puedes hacer una lista o describir tu experiencia en cada área.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Objetivos y Motivaciones</h2>
-      <p>Un párrafo donde hables de tus metas futuras y cómo este proyecto te ayuda a lograrlas.</p>
+  </section>
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <!-- Header Section -->
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-4">
+        Buenas, soy <span class="text-yellow-400">Eliana</span>
+      </h1>
+      <h2 class="text-2xl font-medium flex gap-3 justify-center text-gray-600">
+        ¡Sin miedo!
+        <a href="https://github.com/elianatoto" target="_blank" class="animate-spin">
+          <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
+            ><path
+              fill="currentColor"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+            ></path></svg
+          >
+        </a>
+      </h2>
+      <span class="text-purple-800">ElianaMaTo@gmail.com</span>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+        <div class="aspect-square overflow-hidden rounded-2xl transition duration-300 ease-in-out transform hover:scale-110">
+          <img 
+            src="/img/eliana.jpg" 
+            alt="Profile" 
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="absolute -z-10 -bottom-4 -right-4 w-full h-full bg-gray-300 rounded-2xl"></div>
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-2xl font-semibold md:text-center">Conóceme</h3>
+        
+        <p class="text-gray-600 leading-relaxed">
+          Soy una diseñadora digital freelance apasionada por crear experiencias visuales únicas. 
+          Mi enfoque combina creatividad con funcionalidad para desarrollar soluciones que no solo 
+          se ven bien, sino que también cumplen objetivos específicos.
+        </p>
+  
+        <!-- Skills Section -->
+        <div class="space-y-4"> 
+          <h4 class="font-medium animate-bounce bg-orange-400 text-white p-2 rounded">Habilidades principales</h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">Diseñadora UX</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">Diseño Web</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">UI/UX</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">Ingeniera de Sistemas</span>
+          </div>
+        </div>
+  
+        <!-- Experience Section -->
+        <div class="space-y-4">
+          <h4 class="font-medium">Experiencia y formación</h4>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Atención al cliente</span>
+              <span class="text-sm text-gray-500">2012 - Presente</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Diseño web UX/UI</span>
+              <span class="text-sm text-gray-500">2024 - Presente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="max-w-6xl mx-auto px-4 py-16">
+    <!-- Header Section -->
+    <div class="text-center">
+      <h1 class="text-4xl font-bold mb-4">
+        Hello, soy <span class="text-green-800">Juan</span>
+      </h1>
+      <h2 class="text-2xl font-medium flex gap-3 justify-center text-gray-600">
+        Pasen y vean
+        <a href="https://github.com/xxxpedrozaxxx" target="_blank" class="">
+          <svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
+            ><path
+              fill="currentColor"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+            ></path></svg
+          >
+        </a>
+      </h2>
+      <span class="text-green-800">Juandiego12345679@gmail.com</span>
+    </div>
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="relative">
+        <div class="aspect-square overflow-hidden rounded-2xl">
+          <img 
+            src="/img/juan.jpg" 
+            alt="Profile" 
+            class="w-full h-full object-cover"
+          />
+        </div>
+        <div class="absolute -z-10 -bottom-4 -right-4 w-full h-full bg-gray-300 rounded-2xl"></div>
+      </div>
+      <div class="space-y-6">
+        <h3 class="text-2xl font-semibold md:text-center">Conóceme</h3>
+        <p class="text-gray-600 leading-relaxed">
+          Soy una persona perseverante y competitiva ante cualquier desafío o tarea propuesta, con conocimientos en desarrollo y 
+          diseño de software y aplicaciones, gracias a la capacidad de proponer nuevas ideas para la eficacia y eficiencia 
+          en los objetivos por alcanzar.
+        </p>
+  
+        <!-- Skills Section -->
+        <div class="space-y-4">
+          <h4 class="font-medium">Habilidades principales</h4>
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">UX Design</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">Web Design</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">UI/UX</span>
+            <span class="px-4 py-2 bg-gray-100 rounded-full text-sm animate-pulse">Full Stack</span>
+          </div>
+        </div>
+  
+        <!-- Experience Section -->
+        <div class="space-y-4">
+          <h4 class="font-medium">Experiencia y formación</h4>
+          <div class="space-y-3">
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Programador Full stack</span>
+              <span class="text-sm text-gray-500">Julio 2021 - Julio 2022</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Web Design Degree</span>
+              <span class="text-sm text-gray-500">2016 - 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="max-w-5xl mx-auto p-6 lg:p-12 bg-white shadow-lg rounded-lg">
-    <div class="flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0">
-      <!-- Imagen de perfil -->
-      <img
-        src="https://avatars.githubusercontent.com/u/110634995?v=4"
-        alt="Imagen de perfil"
-        class="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-md"
-      />
-      <!-- Información principal -->
-      <div class="text-center md:text-left">
-        <h1 class="text-4xl font-semibold text-gray-800 mb-2">Acerca de Nosotros</h1>
-        <p class="text-gray-600">Aquí puedes agregar una breve introducción sobre ti, como tus intereses y objetivos.</p>
-      </div>
-    </div>
-    
-    <!-- Descripción detallada -->
-    <div class="mt-6 space-y-4 text-gray-700">
-      <h2 class="text-2xl font-medium text-gray-800">Mi Historia</h2>
-      <p>Un párrafo donde hables sobre tu experiencia personal y profesional, y qué te ha llevado a trabajar en este proyecto.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Habilidades y Experiencia</h2>
-      <p>Descripción de tus habilidades principales. Puedes hacer una lista o describir tu experiencia en cada área.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Objetivos y Motivaciones</h2>
-      <p>Un párrafo donde hables de tus metas futuras y cómo este proyecto te ayuda a lograrlas.</p>
-    </div>
-  </section>
-
-  <section class="max-w-5xl mx-auto p-6 lg:p-12 bg-white shadow-lg rounded-lg">
-    <div class="flex flex-col md:flex-row items-center md:space-x-8 space-y-4 md:space-y-0">
-      <!-- Imagen de perfil -->
-      <img
-        src="https://avatars.githubusercontent.com/u/131971157?v=4"
-        alt="Imagen de perfil"
-        class="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover shadow-md"
-      />
-      <!-- Información principal -->
-      <div class="text-center md:text-left">
-        <h1 class="text-4xl font-semibold text-gray-800 mb-2">Acerca de Nosotros</h1>
-        <p class="text-gray-600">Aquí puedes agregar una breve introducción sobre ti, como tus intereses y objetivos.</p>
-      </div>
-    </div>
-    
-    <!-- Descripción detallada -->
-    <div class="mt-6 space-y-4 text-gray-700">
-      <h2 class="text-2xl font-medium text-gray-800">Mi Historia</h2>
-      <p>Un párrafo donde hables sobre tu experiencia personal y profesional, y qué te ha llevado a trabajar en este proyecto.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Habilidades y Experiencia</h2>
-      <p>Descripción de tus habilidades principales. Puedes hacer una lista o describir tu experiencia en cada área.</p>
-
-      <h2 class="text-2xl font-medium text-gray-800">Objetivos y Motivaciones</h2>
-      <p>Un párrafo donde hables de tus metas futuras y cómo este proyecto te ayuda a lograrlas.</p>
-    </div>
-  </section>
 </Layout>
-
-<section class="max-w-6xl mx-auto px-4 py-16">
-  <!-- Header Section -->
-  <div class="mb-16 text-center">
-    <h1 class="text-4xl font-bold mb-4">
-      Hello, I'm <span class="text-rose-500">Nancy</span>
-    </h1>
-    <h2 class="text-2xl font-medium text-gray-600">
-      Welcome to my World.
-    </h2>
-  </div>
-
-  <!-- Main Content -->
-  <div class="grid md:grid-cols-2 gap-12 items-center">
-    <!-- Left Column - Image -->
-    <div class="relative">
-      <div class="aspect-square overflow-hidden rounded-2xl">
-        <img 
-          src="https://res.cloudinary.com/dzesri3ow/image/upload/v1731478897/txipzvdpothzijjgb0e9.jpg" 
-          alt="Profile" 
-          class="w-full h-full object-cover"
-        />
-      </div>
-      <!-- Decorative background element -->
-      <div class="absolute -z-10 -bottom-4 -right-4 w-full h-full bg-gray-100 rounded-2xl"></div>
-    </div>
-
-    <!-- Right Column - Content -->
-    <div class="space-y-6">
-      <h3 class="text-2xl font-semibold">About Me</h3>
-      
-      <p class="text-gray-600 leading-relaxed">
-        Soy una diseñadora digital freelance apasionada por crear experiencias visuales únicas. 
-        Mi enfoque combina creatividad con funcionalidad para desarrollar soluciones que no solo 
-        se ven bien, sino que también cumplen objetivos específicos.
-      </p>
-
-      <!-- Skills Section -->
-      <div class="space-y-4">
-        <h4 class="font-medium">Main Skills</h4>
-        <div class="flex flex-wrap gap-3">
-          <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">UX Design</span>
-          <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">Web Design</span>
-          <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">UI/UX</span>
-          <span class="px-4 py-2 bg-gray-100 rounded-full text-sm">Prototyping</span>
-        </div>
-      </div>
-
-      <!-- Experience Section -->
-      <div class="space-y-4">
-        <h4 class="font-medium">Experience & Education</h4>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="font-medium">UX/UI Designer</span>
-            <span class="text-sm text-gray-500">2020 - Present</span>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="font-medium">Web Design Degree</span>
-            <span class="text-sm text-gray-500">2016 - 2020</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Awards or Additional Info -->
-      <div class="space-y-4">
-        <h4 class="font-medium">Awards & Recognition</h4>
-        <div class="space-y-3">
-          <div class="flex justify-between items-center">
-            <span class="font-medium">Best Design Award</span>
-            <span class="text-sm text-gray-500">2023</span>
-          </div>
-          <div class="flex justify-between items-center">
-            <span class="font-medium">Innovation Prize</span>
-            <span class="text-sm text-gray-500">2022</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <style>
   /* Puedes añadir estilos específicos aquí si los necesitas */
