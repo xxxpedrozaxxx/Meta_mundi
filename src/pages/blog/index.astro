@@ -46,7 +46,6 @@ const posts = (await getCollection('blog')).sort(
 			.card h4 {
 				font-size: 1.75rem;
 				margin-top: 5px;
-				
 			}
 			.card:hover {
 				transform: scale(1.05);
@@ -94,7 +93,7 @@ const posts = (await getCollection('blog')).sort(
 					  <li class="card relative group">
 						<a href={`/blog/${post.slug}/`} class="block">
 						  <img class="hover:animate-pulse" src={post.data.heroImage} alt="" />
-						  <h4 class="text-center text-color:white transform translate-y-full transition-all text-white duration-300 group-hover:translate-y-1 group-hover:mb-10 group-hover:text-black">
+						  <h4 class="text-center text-color:white transform translate-y-full transition-all text-white duration-300 group-hover:translate-y-1 group-hover:mb-8 group-hover:text-black">
 							{post.data.title}
 						  </h4>
 						</a>
