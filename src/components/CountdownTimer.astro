@@ -37,11 +37,12 @@ const celebrations = [
 <script>
 function updateCountdown() {
   const containers = document.querySelectorAll('.countdown-container');
-  
+
   containers.forEach(container => {
-    const targetDate = new Date(container.dataset.targetDate);
+    const htmlContainer = container as HTMLElement;  // Especifica el tipo HTMLElement
+    const targetDate = new Date(htmlContainer.dataset.targetDate || '');
     const now = new Date();
-    const difference = targetDate - now;
+    const difference = targetDate.getTime() - now.getTime();
 
     if (difference > 0) {
       const days = Math.floor(difference / (1000 * 60 * 60 * 24));
@@ -49,10 +50,15 @@ function updateCountdown() {
       const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
-      container.querySelector('.days').textContent = days.toString().padStart(2, '0');
-      container.querySelector('.hours').textContent = hours.toString().padStart(2, '0');
-      container.querySelector('.minutes').textContent = minutes.toString().padStart(2, '0');
-      container.querySelector('.seconds').textContent = seconds.toString().padStart(2, '0');
+      const daysElement = htmlContainer.querySelector('.days');
+      const hoursElement = htmlContainer.querySelector('.hours');
+      const minutesElement = htmlContainer.querySelector('.minutes');
+      const secondsElement = htmlContainer.querySelector('.seconds');
+
+      if (daysElement) daysElement.textContent = days.toString().padStart(2, '0');
+      if (hoursElement) hoursElement.textContent = hours.toString().padStart(2, '0');
+      if (minutesElement) minutesElement.textContent = minutes.toString().padStart(2, '0');
+      if (secondsElement) secondsElement.textContent = seconds.toString().padStart(2, '0');
     }
   });
 }
